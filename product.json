@@ -1,0 +1,103 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Remove Unwanted Objects",
+        "description": "Magically remove unwanted persons, objects, scratches, skin blemishes, and other imperfections.",
+        "category": "AI Removal & Cutout",
+        "price": "Free"
+      },
+      {
+        "id": 2,
+        "name": "Remove Background from Video",
+        "description": "No green screen, no pick pixels, select colors, paint masks or move paths, 100% automatically remove video background.",
+        "category": "AI Removal & Cutout",
+        "price": "Free"
+      },
+      {
+        "id": 3,
+        "name": "Remove Background from Photo",
+        "description": "Superb cutout quality with stunning edge details, background removal is a breeze.",
+        "category": "AI Removal & Cutout",
+        "price": "Free"
+      },
+      {
+        "id": 4,
+        "name": "Face Cutout",
+        "description": "Face and hair segmentation for human (kids and adults) and pets (cats, dogs, etc.) with hair-level fine details.",
+        "category": "AI Removal & Cutout",
+        "price": "Free"
+      },
+      {
+        "id": 5,
+        "name": "AI Art Generator",
+        "description": "AI Art on MyAIStudio gives you unlimited access to AI-generated artwork.",
+        "category": "AI Generation",
+        "price": "Paid"
+      },
+      {
+        "id": 6,
+        "name": "Background Diffusion",
+        "description": "AI-powered background editing using text prompts.",
+        "category": "AI Generation",
+        "price": "Paid"
+      },
+      {
+        "id": 7,
+        "name": "Photo Enhancer",
+        "description": "Enhance photo resolution, quality, and detail online 100% automatically.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 8,
+        "name": "AI Video Enhancer",
+        "description": "4K video quality enhancer online can unblur video, increase resolution, and improve quality.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 9,
+        "name": "Photo Animer",
+        "description": "Turn photos into moving videos and bring portraits to life.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 10,
+        "name": "Photo Colorizer",
+        "description": "Turn black and white old family photos to color in seconds.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 11,
+        "name": "Cartoon Selfie",
+        "description": "Turn your portrait into a cartoon selfie with different styles, including 3D Cartoon and 2D Anime.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 12,
+        "name": "Passport Photo Maker",
+        "description": "Create your own professional passport/visa/ID photo with proper sizing.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 13,
+        "name": "Blur Background",
+        "description": "Create stunning photos with gorgeous background blur like a DSLR camera.",
+        "category": "Explore AI",
+        "price": "Paid"
+      },
+      {
+        "id": 14,
+        "name": "Free Images Search Engine",
+        "description": "Reverse image search engine for hundreds of millions of image libraries, including Pixabay, Pexels, Unsplash, and Tenor GIF.",
+        "category": "Explore AI",
+        "price": "Free"
+      }
+    ]
+  }
+  
