@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonely Nights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+    <style>
+        /* Video Background */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #bgVideo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        /* Ad Spaces */
+        .ad-space {
+            position: absolute;
+            background: rgba(0, 0, 0, 0);
+            padding: 10px;
+            text-align: center;
+        }
+        .header {
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+        }
+        .left {
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            width: 160px;
+            height: 600px;
+        }
+        .right {
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            width: 160px;
+            height: 600px;
+        }
+        .footer {
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 250px;
+        }
+        
+        /* Centered Buttons */
+        .button-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            }
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background: rgba(255, 255, 255, 0);
+            border: 4px solid white;
+            border-radius: 40px;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            animation: pulse 2s infinite;
+        }
+        
+        .btn:hover {
+            background: rgb(234, 225, 225);
+            color: rgb(14, 14, 14);
+            animation: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline id="background-video">
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Ad Spaces with Adsterra Script -->
+    <div class="ad-space left">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '1ec78c3cb92569c68b0210df0a08cab1',
+                'format' : 'iframe',
+                'height' : 600,
+                'width' : 160,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/1ec78c3cb92569c68b0210df0a08cab1/invoke.js"></script>
+    </div>
+
+    <div class="ad-space right">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '1ec78c3cb92569c68b0210df0a08cab1',
+                'format' : 'iframe',
+                'height' : 600,
+                'width' : 160,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/1ec78c3cb92569c68b0210df0a08cab1/invoke.js"></script>
+    </div>
+
+    <div class="ad-space footer">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'a71add7043e6d7bc9c987c44eb0cc9a4',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/a71add7043e6d7bc9c987c44eb0cc9a4/invoke.js"></script>
+    </div>
+    
+    <!-- Centered Buttons -->
+    <div class="button-container">
+        <a href="https://www.nephobox.com/referral/4398510628775" class="btn">WANT TO EARN</a>
+        <a href="https://t.me/sophie_xx_1986" class="btn">BACK UP CHANNEL</a>
+        <a href="https://www.instagram.com/nyxwhisperer/" class="btn">PREMIUM CONTENT</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
